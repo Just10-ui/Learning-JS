@@ -52,3 +52,5 @@ x = 1; // !(Not Recommended)
 let fName = 'Justin', 
 lName = 'Apolong', 
 mName = 'Pajares';
+
+// - Note: Always use const if the value is unchanging or constant
