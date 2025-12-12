@@ -1,5 +1,5 @@
-// * easy
-// * Reverse a string
+//* easy
+//* Reverse a string
 
 let str = 'Justin';
 let revStr = str.split('').reverse().join('');

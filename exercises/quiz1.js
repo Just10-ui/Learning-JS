@@ -1,4 +1,4 @@
-// ? medium
+//? medium
 
 for (let i = 1; i <= 100; i++) {
   let output = '';
