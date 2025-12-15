@@ -1,5 +1,5 @@
 //* easy
-//? Create an object called movie with the following properties:
+//- Create an object called movie with the following properties:
 const movie = {
   title: 'Ang alamat ni nash',
   director: 'francine',
