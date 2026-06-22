@@ -21,3 +21,15 @@ function isEven(num) {
 }
 
 // console.log(isEven(2));
+
+// * PROBLEM 3: Find the Maximum
+
+function findMax(arr) {
+    const maxNum = arr.reduce((total, value) => {
+        return total > value ? total : value;
+    }, arr[0]);
+
+    return maxNum;
+};
+
+console.log(findMax([1, 5, 8, 3, 2]));
