@@ -45,4 +45,15 @@ function fizzBuzz(num) {
     return output;
 };
 
-console.log(fizzBuzz(30));
+// console.log(fizzBuzz(30));
+
+// * PROBLEM 5: Count Vowels
+
+function countVowels(str) {
+    const vowels = /[a, e, i, o, u]/gi;
+    const result = str.match(vowels);
+
+    return result.length;
+};
+
+console.log(countVowels('javascript'));
