@@ -32,4 +32,17 @@ function findMax(arr) {
     return maxNum;
 };
 
-console.log(findMax([1, 5, 8, 3, 2]));
+// console.log(findMax([1, 5, 8, 3, 2]));
+
+// * PROBLEM 4: Fizzbuzz
+
+function fizzBuzz(num) {
+    let output = '';
+    if (num % 3 == 0) output += 'Fizz';
+    if (num % 5 == 0) output += 'Buzz';
+    if (num % 3 != 0 && num % 5 != 0) output = 'FizzBuzz';
+
+    return output;
+};
+
+console.log(fizzBuzz(30));
