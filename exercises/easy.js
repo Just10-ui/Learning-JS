@@ -1,4 +1,4 @@
-//? These coding problems are considered easy
+// * these problems are easy difficulty
 
 const console = require("console");
 
